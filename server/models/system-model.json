@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "system_ip_address": "127.0.0.1",
+    "server_system_port": 5000,
+    "server_container_port": 5000,
+    "server_secret_key": "abcdefgh01234456789_IJKLMNOPQrstuv-wxyz",
+    "scheduler_system_port": 5001,
+    "scheduler_container_port": 5000,
+    "tunnel_system_port": 5002,
+    "tunnel_container_port": 5000,
+    "tunnel_subdomain_name": "somerandomstringoflowercaseletters",
+    "tunnel_control_token": "abcdefgh01234456789_IJKLMNOPQrstuv-wxyz"
+  },
+  "components": {
+    ".tunnel_subdomain_name": {
+      "min_length": 4,
+      "max_length": 63,
+      "must_not_contain": [
+        "[^a-z]+"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema": {
+    "oauth_service_name": "",
+    "oauth_redirect_uri": "",
+    "oauth_response_type": "",
+    "oauth_service_scope": "",
+    "oauth_client_id": "",
+    "oauth_app_name": "",
+    "oauth_authorize_url": "",
+    "oauth_developer_name": "",
+    "oauth_client_secret": ""
+  }
+}
