@@ -1,0 +1,21 @@
+{
+  "schema": {
+    "token": "abcdefgh01234456789_IJKLMNOPQrstuv-wxyz",
+    "action": "open",
+    "subdomain": "somerandomstringoflowercaseletters",
+    "provider": ""
+  },
+  "components": {
+    ".action": {
+      "discrete_values": [ "open", "close" ]
+    },
+    ".subdomain": {
+      "min_length": 4,
+      "max_length": 63,
+      "must_not_contain": [ "[^a-z]+" ]
+    },
+    ".provider": {
+      "discrete_values": [ "localtunnel.me" ]
+    }
+  }
+}
